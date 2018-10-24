@@ -13,7 +13,7 @@ int main()
 
         if(start>first) res+=(start-first)*9;
         else res+=(start+40-first)*9;
-        //• continue turning counter-clockwise until the 2nd number is reached
+        //continue turning counter-clockwise until the 2nd number is reached
         if(snd>first) res+= (snd-first)*9;
         else res+=(snd+40-first)*9;
         //turn the dial clockwise again until the 3rd number is reached
